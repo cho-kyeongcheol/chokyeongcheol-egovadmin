@@ -1,0 +1,10 @@
+---
+applications:
+- name: chokyeongcheol-egovadmin
+  memory: 512M
+  host: chokyeongcheol-egovadmin
+  domain: paas-ta.org
+  services:
+  - chokyeongcheol-egov-db
+  instances: 1
+  disk_quota: 512M
